@@ -87,7 +87,7 @@ services:
         soft: 8192
         hard: 32768
     ## NOTE: to avoid SIP-RTP NAT issues use: 'network_mode: host'
-    network_mode: host
+    #network_mode: host
     ## WARNING: if 'network_mode: host' is disabled, comment out the following lines
     ##          ports are not needed if using 'network_mode: host' or macvlan network driver
     ##          if you want use macvlan network driver comment out 'izpbx-ext:' too and change exposed IP according your needs
